@@ -1,0 +1,27 @@
+{
+  "author": "DearHua",
+  "description": "Tiny dependency-free replacements for @ffmpeg/util's toBlobURL and fetchFile (whose UMD build is broken in browsers).",
+  "files": [
+    "dist/",
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "ffmpeg",
+    "ffmpeg.wasm",
+    "util",
+    "blob",
+    "browser"
+  ],
+  "license": "MIT",
+  "main": "dist/umd/index.js",
+  "module": "dist/esm/index.js",
+  "name": "ffmpeg-util-shim",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/santalin87/ffmpeg-util-shim.git"
+  },
+  "types": "src/index.js",
+  "version": "1.0.0"
+}
